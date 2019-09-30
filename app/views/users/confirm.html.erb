@@ -1,0 +1,11 @@
+<h3>Are you sure? </h3>
+
+<%= form_with(model: @user, url: users_path, local: true) do |form| %>
+ <%= form.hidden_field :content %>
+
+  <p>Your tweet:<%= @user.content %></p>
+  <p>本文:<%= @user.content %></p>
+  <%= form.submit  "登録する" %>
+  
+   <%= form.submit "戻る" ,name: 'back'%>
+<% end %>

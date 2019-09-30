@@ -1,0 +1,43 @@
+<%= form_with(model: @user, local:true, url:confirm_users_path) do |form| %>
+  <% if @user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= @user.errors.count %>件のエラーがあります。</h2>
+      <ul>
+
+      <% @user.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+
+  <div class="user_title">
+    <%= form.label :content %><br>
+    <%= form.text_field :content %>
+  </div>
+  <%= form.submit value:"Submit" %>
+<% end %>
+
+<div class="back_to">
+<%= link_to "TOP", users_path %>
+</div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<%#  
+ <h2>Tweet</h2>
+
+  <%= render 'form' %> 

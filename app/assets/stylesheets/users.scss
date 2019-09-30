@@ -1,0 +1,173 @@
+
+
+html {
+  font: 100%/1.5 'Avenir Next', 'Hiragino Sans', sans-serif;
+  line-height: 1.7;
+  letter-spacing: 1px;
+}
+
+body {
+  background-color:  rgb(54, 149, 175);
+  background-size: cover;
+  background-image: url("./twiclone.jpg");
+}
+
+
+header {
+  height: 80px;
+  border-top: 0px;
+  background-color: rgb(54, 149, 175);
+}
+
+
+.home-content{
+  font-size: 40px; 
+  font-family: bold;
+  color: rgb(240, 194, 194);
+}
+
+.home-content th{
+  color:rgb(39, 25, 41);
+}
+h1{
+  margin:0;
+  font-size:50px;
+  border-top:20px;
+  padding-left: 20px;
+  line-height: 70px;
+  color: rgb(255, 255, 255);
+}
+  
+  
+
+
+.detail {
+  color:  rgb(54, 149, 175);
+}
+.header-logo{
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo a {
+  text-decoration: none;
+}
+.logo-btn {
+  margin-top: 12px;
+  border-radius: 100px;
+  box-shadow: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  background-color: rgb(44, 141, 128);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo-btn:hover, input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover {
+  background-color: #307f97;
+}
+
+.sending{
+  font-size:50px;
+  margin-top:480px;
+  padding:10px;
+  position:relative;
+}
+
+body li {
+  list-style: none;
+}
+
+// table {
+//   border-collapse: separate;
+//   border-spacing: 10px;
+// }
+
+table th {
+  text-align: center;
+}
+
+footer {
+  // position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 110px;
+  background-color: #a38db3;
+  position:relative;
+}
+
+footer p {
+  text-align: center;
+  vertical-align: middle;
+}
+
+input[type="text"] {
+        width: 300px;
+        height: 80px;
+    }
+
+input[type=button], input[type=reset], input[type=submit] {
+  margin-top: 12px;
+  border-radius: 100px;
+  box-shadow: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #307f97;
+  display: inline-block;
+  vertical-align: middle;
+  color: white
+}
+
+
+
+// show
+.confirmation {
+  font-size: 40px;
+  font-family: bold;
+  color: rgb(0, 0, 0);
+  margin-top: 20px;
+}
+
+
+
+//edit
+.tweet_content {
+  font-size: 40px;
+  color: rgb(72, 153, 207);
+
+}
+
+
+//new
+.user_title{
+  font-size:40px;
+}
+
+.back_to{
+  font-size:40px;
+  margin-top:20px;
+}
