@@ -48,6 +48,7 @@ h1{
   display: flex;
 }
 
+
 ul {
   list-style: none;
 }
@@ -79,27 +80,37 @@ ul {
 .logo-btn a {
   color: white;
   text-decoration: none;
+  
 }
 
 .logo-btn:hover, input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover {
   background-color: #307f97;
 }
 
+
+
 .sending{
   font-size:50px;
   margin-top:480px;
   padding:10px;
   position:relative;
+  a:visited { color:white; text-decoration:none }
 }
+
+
 
 body li {
   list-style: none;
 }
 
+
+
 // table {
 //   border-collapse: separate;
 //   border-spacing: 10px;
 // }
+
+
 
 table th {
   text-align: center;
@@ -114,10 +125,15 @@ footer {
   position:relative;
 }
 
+
+
 footer p {
   text-align: center;
   vertical-align: middle;
 }
+
+
+
 
 input[type="text"] {
         width: 300px;
